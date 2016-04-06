@@ -16,7 +16,7 @@
 	  </excludes>
 	</unpackOptions>
 	<includes>
-	  <include>com.thinkaurelius.titan:titan-hbase-*</include>
+	  <include>org.hawkular.titan:titan-hbase-*</include>
 	</includes>
       </dependencySet>
     </dependencySets>
