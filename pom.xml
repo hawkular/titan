@@ -7,7 +7,7 @@
     </parent>
     <groupId>org.hawkular.titan</groupId>
     <artifactId>titan</artifactId>
-    <version>0.5.4-jboss-1-SNAPSHOT</version>
+    <version>0.5.4-jboss-1</version>
     <packaging>pom</packaging>
     <prerequisites>
         <maven>2.2.1</maven>
@@ -55,7 +55,7 @@
         <connection>scm:git:git@github.com:hawkular/titan</connection>
         <developerConnection>scm:git:git@github.com:hawkular/titan</developerConnection>
         <url>https://github.com/hawkular/titan</url>
-        <tag>HEAD</tag>
+        <tag>0.5.4-jboss-1</tag>
     </scm>
     <distributionManagement>
         <repository>
