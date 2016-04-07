@@ -747,26 +747,6 @@
                         </plugin>
 
                         <plugin>
-                            <groupId>org.codehaus.mojo</groupId>
-                            <artifactId>wagon-maven-plugin</artifactId>
-                            <executions>
-                                <execution>
-                                    <id>deploy-distribution-archives-to-s3</id>
-                                    <phase>deploy</phase>
-                                    <goals>
-                                        <goal>upload</goal>
-                                    </goals>
-                                    <configuration>
-                                        <fromDir>${project.build.directory}</fromDir>
-                                        <includes>titan*.tar.bz2.asc,titan*.zip.asc,titan*.zip,titan*.tar.bz2</includes>
-                                        <serverId>aurelius.s3</serverId> <!-- your ~/.m2/settings.xml must match -->
-                                        <url>s3://s3.thinkaurelius.com/downloads/titan/</url>
-                                    </configuration>
-                                </execution>
-                            </executions>
-                        </plugin>
-
-                        <plugin>
                             <artifactId>maven-jar-plugin</artifactId>
                             <executions>
                                 <execution>
